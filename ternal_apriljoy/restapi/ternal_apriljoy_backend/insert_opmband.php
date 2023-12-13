@@ -9,10 +9,11 @@ function insertOpmBand ($servername, $username, $password, $dbname, $data) {
         $data[$key] = mysqli_real_escape_string($connect, $value);
     }
     
-    $sql = "INSERT INTO opmband (opmband_name, origin, leadvocalist_name, formation_date, 
-                first_album) 
-            VALUES ('$data[opmband_name]', '$data[origin]', '$data[leadvocalist_name]', 
-                '$data[formation_date]', '$data[first_album]')";
+    $sql = "INSERT INTO opmband (opmband_name, origin, leadvocalist_name, 
+    formation_date, first_album) 
+            VALUES ('$data[opmband_name]', '$data[origin]', 
+            '$data[leadvocalist_name]', '$data[formation_date]', 
+            '$data[first_album]')";
    
     if (!$connect->query($sql)) {
         echo "Error: " . $sql . "<br>" . mysqli_error($connect);

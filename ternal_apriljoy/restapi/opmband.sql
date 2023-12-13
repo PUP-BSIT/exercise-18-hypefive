@@ -11,7 +11,8 @@ CREATE TABLE `opmBand` (
   `first_album` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `opmBand` (`id`, `opmband_name`, `origin`, `leadvocalist_name`, `formation_date`,
+INSERT INTO `opmBand` (`id`, `opmband_name`, `origin`, 
+`leadvocalist_name`, `formation_date`,
  `first_album`) VALUES
  
 ALTER TABLE `opmBand`
