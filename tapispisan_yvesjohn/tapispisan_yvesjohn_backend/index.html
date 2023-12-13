@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API</title>
+    <link rel="stylesheet" href="manga_style.css">
+</head>
+<body>
+
+    <h2>Manga Recommendation</h2>
+        <input type="text" id="manga_id" name="manga_id" required hidden>
+
+    <form id="crud_form">
+    
+        <label for="manga_name">Manga Name:</label>
+        <input type="text" id="manga_name">
+        
+        <label for="author_name">Author Name:</label>
+        <input type="text" id="author_name" >
+
+        <label for="volume_number">Volume Number:</label>
+        <input type="number" id="volume_number">
+
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre">
+
+        <label for="rating">Rating :</label>
+        <input type="float" id="rating" required>
+
+        <button type="submit" id="save">Save</button>            
+        <button class="update" id="update">Update</button>
+    </form>
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Anime Name</th>
+                <th>Author Name</th>
+                <th>Volume Number</th>
+                <th>Genre</th>
+                <th>Rating</th>
+                
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+
+<script src="manga_script.js"></script>
+
+</body>
+</html>
