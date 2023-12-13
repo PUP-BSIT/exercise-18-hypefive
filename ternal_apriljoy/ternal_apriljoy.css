@@ -1,0 +1,617 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: floralwhite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "Aretha";
+  src: url("ArethaBridge.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "afterglow";
+  src: url("Afterglow-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "orchid";
+  src: url("orchid.otf") format("opentype");
+}
+
+.centered-div {
+  text-align: center;
+  background-color: #dae4e8;
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+}
+
+.centered-div h1 {
+  color: #8a7059;
+  font-family: "Aretha", "times new roman";
+  font-size: 100px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.centered-div p {
+  font-size: 20px;
+  text-align: center;
+  color: slategray;
+}
+
+header {
+  background-color: #c1c2ad;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: roboto;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 50px;
+}
+
+header nav ul li a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: #556449;
+  font-size: 20px;
+}
+
+.intandhobbies {
+  margin-top: 100px;
+}
+
+.hobbies-section {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hobbies-section h2 {
+  font-family: "orchid", "times new roman";
+  color: #4c6069;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.hobby-list {
+  display: flex;
+  text-align: center;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hobby-item {
+  flex-basis: calc(33.33% - 55px);
+  text-align: left;
+  margin-top: 20px;
+  margin: 5px 5px 5px 0px;
+}
+
+.hobby-item img {
+  margin-top: 10px;
+  width: 300px;
+  height: 100px;
+  border: 3px solid lightgray;
+  border-radius: 1%;
+}
+
+.caption {
+  white-space: normal;
+  overflow: hidden;
+  margin-top: 30px;
+  font-size: 14px;
+  max-width: 80%;
+  text-align: justify;
+  color: slategray;
+  margin-top: 10px;
+}
+
+.number {
+  font-size: 30px;
+  font-family: "Afterglow", "times new roman";
+  text-align: left;
+  margin-left: 5px;
+  color: #556b5c;
+}
+
+.works-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.works-section h2 {
+  font-family: "orchid", "times new roman";
+  color: #4c6069;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.work-container {
+  display: flex;
+  flex-wrap: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.work-item {
+  margin-top: 20px;
+  height: 370px;
+  text-align: center;
+  background-color: #c1c2ad;
+  padding-top: 20px;
+  width: 230px;
+  margin: 20px;
+}
+
+.work-item img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+.work-item h3 {
+  font-family: "Afterglow", "times new roman";
+  color: #556b5c;
+  font-size: 18px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.work-item p {
+  white-space: normal;
+  overflow: hidden;
+  font-size: 10px;
+  margin: 10px 10px 10px 15px;
+  color: darkslategray;
+  max-width: 200px;
+  text-align: justify;
+}
+
+.work-item button {
+  background-color: #788c76;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.work-item button a {
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.testimonials-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.testimonials-section h2 {
+  font-family: "orchid", "times new roman";
+  color: #4c6069;
+  font-size: 50px;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 150px;
+  vertical-align: top;
+}
+
+.profile-pic img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testimonial-content {
+  text-align: left;
+}
+
+.name {
+  text-align: center;
+  margin-right: 7px;
+  font-size: 20px;
+  margin-top: 2px;
+  color: #556b5c;
+}
+
+.occupation {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #556b5c;
+}
+
+.testimony {
+  text-align: center;
+  font-size: 15px;
+  color: darkslategray;
+}
+
+.gallery {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.gallery h2 {
+  font-family: "orchid", "times new roman";
+  color: #4c6069;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 30px 50px;
+  padding: 20px;
+  width: 200px;
+  height: 260px;
+  background-color: antiquewhite;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.gallery-item img {
+  width: 200px;
+  height: 200px;
+}
+
+.gallery-item h3 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #8a7059;
+}
+
+.gallery-item p {
+  font-size: 12px;
+  margin-top: 10px;
+  color: darkslategray;
+}
+
+.goals {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.goals h1 {
+  font-family: "orchid", "times new roman";
+  color: #4c6069;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.goals-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.goals-item {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 250px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.goals-item img {
+  width: 200px;
+  height: 200px;
+  height: auto;
+}
+
+.goals-item h3 {
+  font-size: 15px;
+  margin-top: 15px;
+  color: #8a7059;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.comment-form {
+  background-color: #8a7059;
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.comment-form h3 {
+  font-family: "arial";
+  color: #ffffff;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.comment-form label {
+  display: block;
+  text-align: left;
+  color: white;
+  font-family: "arial";
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.comment-form input[type="text"] {
+  width: 400px;
+  height: 20px;
+  font-size: 15px;
+}
+
+.comment-form textarea {
+  width: 400px;
+  height: 150px;
+  font-size: 15px;
+}
+
+.comment-form button {
+  padding: 10px 20px;
+  background-color: #525252;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.comment-form button:disabled {
+  background-color: #ccc;
+}
+
+.all-comments-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 600px;
+  margin-top: 100px;
+  background-color: #dae4e8;
+  overflow-y: scroll;
+}
+
+.new-user-comment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.new-user-comment-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 500px;
+  height: 90px;
+  background-color: lightskyblue;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.user-comment-container h1 {
+  font-family: "orchid", "times new roman";
+  color: #4c6069;
+  font-size: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #dae4e8;
+  width: 100%;
+  height: 100px;
+  padding: 30px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  padding: 10px;
+  width: 500px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.comment .user-info,
+.new-user-info-div {
+  display: flex;
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+.comment .user-info h3,
+.new-user-name {
+  font-size: 20px;
+}
+
+.comment .user-info img,
+.new-user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment .user-info p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightskyblue;
+  font-size: 15px;
+}
+
+.new-user-username {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.comment .name-info {
+  font-weight: bold;
+  font-size: 6px;
+}
+
+#button_asc {
+  background-color: rgb(120, 215, 120);
+  width: 250px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#button_desc {
+  background-color: rgb(102, 180, 176);
+  width: 250px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.user-comment {
+  font-size: 15px;
+  color: #333;
+}
+
+.countries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.link-button {
+  text-decoration: none;
+}
+
+.link-button button {
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.grayscale {
+  filter: none;
+  transition: filter 0.3s;
+}
+
+.grayscale:hover {
+  filter: saturate(100%);
+  filter: brightness(70%);
+}
+
+@media (max-width: 320px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  body {
+    background-color: floralwhite;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  body {
+    background-color: floralwhite;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-color: floralwhite;
+  }
+}
