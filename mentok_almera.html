@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Mentok, Almera Page</title>
+  </head>
+  <body>
+    <h1>Mentok, Almera</h1>
+    <div>
+      <h2>My Interests and Hobbies</h2>
+      <ul>
+        <li>
+          Kpop
+          <p>
+            Immersing myself in the world of Kpop, enjoying the catchy tunes and
+            mesmerizing choreography.
+          </p>
+        </li>
+        <li>
+          Sleeping
+          <p>
+            Recharging my energy through quality sleep and relaxation, ensuring
+            I'm ready for each day's adventures.
+          </p>
+        </li>
+        <li>
+          Music
+          <p>
+            Exploring different music genres, finding solace and inspiration in
+            the harmonious melodies and meaningful lyrics.
+          </p>
+        </li>
+        <li>
+          Travel
+          <p>
+            Embarking on exciting journeys to new destinations, creating
+            memories that last a lifetime.
+          </p>
+        </li>
+        <li>
+          Organizing
+          <p>
+            Finding joy in tidying up and creating an orderly environment,
+            making life more efficient and enjoyable.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>My Works</h2>
+      <ol>
+        <li><a href="#">Work 1</a></li>
+        <li><a href="#">Work 2</a></li>
+        <li><a href="#">Work 3</a></li>
+        <li><a href="#">Work 4</a></li>
+        <li><a href="#">Work 5</a></li>
+      </ol>
+    </div>
+
+    <div>
+      <h2>Testimonials</h2>
+      <div class="background">
+        <p>
+          Yves - "In times of tight deadlines and pressure, Almera remains
+          composed and focused. Her ability to handle stress positively
+          influences the team's performance."
+        </p>
+        <p>
+          Diana - "I have the utmost confidence in Almera's abilities. She
+          consistently delivered outstanding results."
+        </p>
+        <p>
+          April - "Almera brought valuable insights to our discussions, and
+          their commitment to meeting deadlines made our collaboration smooth
+          and efficient."
+        </p>
+        <p>
+          Bradley - "Working with Almera was a game-changer for our project; her
+          dedication and expertise truly made a difference."
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <h2>Gallery</h2>
+      <img src="./main.png" />
+      <img src="./main.png" />
+      <img src="./main.png" />
+      <img src="./main.png" />
+      <img src="./main.png" />
+      <img src="./main.png" />
+    </div>
+
+    <div>
+      <h2>My Goals</h2>
+      <ol>
+        <li>Happy Life</li>
+        <li>Financial Stable</li>
+        <li>Mentally Stable</li>
+      </ol>
+      <h2>Comments</h2>
+      <div class="background">
+        <p>
+          April - I'm constantly amazed by your determination and resilience in
+          pursuing your goals. Your journey is an inspiration to us all.
+        </p>
+        <p>
+          Bradley - May your dreams be as big as the sky, and your determination
+          even bigger.
+        </p>
+        <p>
+          Diana - You've set some pretty epic goals, and I'm here to support you
+          all the way!
+        </p>
+        <p>Yves - I admire the clarity with which you've set your goals.</p>
+      </div>
+      <div class="background" id="data_list"></div>
+      <form id="data_form">
+        <div class="background">
+          <div>
+            <label for="commenter_name">Name: </label>
+            <input type="text" id="commenter_name" />
+          </div>
+          <div>
+            <label for="comment_text">Comment: </label>
+            <textarea id="comment_text" rows="4"></textarea>
+          </div>
+          <button type="button" id="comment_button">Comment</button>
+          <button type="button" onclick="sortCommentsAscending()">
+            Sort Ascending
+          </button>
+          <button type="button" onclick="sortCommentsDescending()">
+            Sort Descending
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="background">
+      <span>Want to search a country? 
+        <a href= "./countries/countriesData.html">Click here!</a>
+      </span>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
