@@ -13,7 +13,8 @@ function updateOpmBand($servername, $username, $password, $dbname, $data)
 
     $sql = "UPDATE opmBand
         SET opmband_name = '$data[opmband_name]', origin = '$data[origin]', 
-        leadvocalist_name = '$data[leadvocalist_name]', formation_date = '$data[formation_date]', 
+        leadvocalist_name = '$data[leadvocalist_name]', 
+        formation_date = '$data[formation_date]', 
         first_album = '$data[first_album]'
         WHERE id = '$data[id]'";
 
