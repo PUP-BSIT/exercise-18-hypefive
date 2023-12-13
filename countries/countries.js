@@ -26,7 +26,8 @@ searchButton.addEventListener("click", () => {
           flag: country.flags.png,
         };
 
-        const regionAPI = `https://restcountries.com/v3.1/region/${countryData.countryRegion}`;
+        const regionAPI = 
+          `https://restcountries.com/v3.1/region/${countryData.countryRegion}`;
         return fetch(regionAPI);
       } else {
         throw new Error("Country not found");
