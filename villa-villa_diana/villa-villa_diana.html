@@ -152,6 +152,25 @@
       </div>
     </div>
 
+    <form class="add-crochet">
+      <h2>Add more crochet projects</h2>
+      <input id="project_name" placeholder="Project Name"/>
+      <input id="yarn_ply" placeholder="Yarn Ply"/>
+      <input id="yarn_color" placeholder="Yarn Color"/>
+      <input id="hook_size" placeholder="Hook Size"/>
+      <input id="types_of_stitches" placeholder="Types of Stitches"/>
+      <input id="difficulty_lvl" placeholder="Level of Difficulty"/>
+      <button 
+        type="button" 
+        class="submit-btn" 
+        onclick="createProject()">
+          Submit
+      </button>
+    </form>
+
+    <table id="project_list"> </table>
+    <div id="editDetails"> </div>
+
     <div class="testimonials">
       <h2>Testimonials</h2>
       <ul>

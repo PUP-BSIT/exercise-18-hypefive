@@ -554,6 +554,57 @@
   max-width: 200px;
 }
 
+.add-crochet {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-crochet input {
+  margin: 10px;
+  padding: 10px;
+}
+
+.submit-btn {
+  margin: 10px auto;
+  padding: 5px 20px;
+  background-color: #89b867;
+  border: #0000001a;
+}
+
+.edit-btn,
+.update-btn {
+  margin: 10px auto;
+  padding: 5px 20px;
+  background-color: #bae08b;
+  border: #0000001a;
+}
+
+.delete-btn {
+  margin: 10px auto;
+  padding: 5px 20px;
+  background-color: #e41c1c;
+  border: #0000001a;
+}
+.project-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #fff0e9;
+}
+
 @media (max-width: 425px) {
   .testimonials li p {
     transform: translatex(-50%);
