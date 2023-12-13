@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REST API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>OPM BAND</h2>
+    <input type="text" id="opmband_id" name="band_id" required hidden />
+
+    <form id="crud_form">
+      <label for="opmband_name">Band Name:</label>
+      <input type="text" id="opmband_name" name="opmband_name" required />
+
+      <label for="origin">Origin:</label>
+      <input type="text" id="origin" name="origin" required />
+
+      <label for="leadvocalist_name">Lead Vocalist:</label>
+      <input
+        type="text"
+        id="leadvocalist_name"
+        name="leadvocalist_name"
+        required
+      />
+
+      <label for="formation_date">Formation Date:</label>
+      <input type="date" id="formation_date" name="formation_date" required />
+
+      <label for="first_album">First Album :</label>
+      <input type="text" id="first_album" name="first_album" required />
+
+      <button type="submit" id="save">Save</button>
+      <button class="update" id="update">Update</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Band Name</th>
+          <th>Origin</th>
+          <th>Lead Vocalist</th>
+          <th>Formation Date</th>
+          <th>First Album</th>
+
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="table_body"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

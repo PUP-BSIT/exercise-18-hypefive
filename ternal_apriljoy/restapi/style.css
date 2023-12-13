@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+table{
+    margin-top: 50px;    
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+        
+    text-align: center;
+}
+
+th {
+    background-color: #fff;
+   
+}
+
+td:last-child {
+    text-align: center;
+}
+
+.update {
+    display: none;
+}

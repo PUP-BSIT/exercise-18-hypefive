@@ -549,7 +549,8 @@ header nav ul li a {
   color: #333;
 }
 
-.countries {
+.countries,
+.restapi {
   display: flex;
   justify-content: center;
   align-items: center;
