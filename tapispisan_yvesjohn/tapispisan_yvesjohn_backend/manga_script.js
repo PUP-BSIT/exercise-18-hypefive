@@ -1,4 +1,4 @@
-const animeTable = document.querySelector("#crud_form");
+const mangaTable = document.querySelector("#crud_form");
 
 document.querySelector("#crud_form").addEventListener("submit", 
     function (event) {
@@ -85,7 +85,7 @@ function submitForm() {
         location.reload()
     })
     .catch(error => {
-        console.error('Error inserting anime:', error);
+        console.error('Error inserting manga:', error);
     });   
 }
 
@@ -147,7 +147,7 @@ function submitUpdate() {
         location.reload()
     })
     .catch(error => {
-        console.error('Error updating anime:', error);
+        console.error('Error updating manga:', error);
     });
 }
 
