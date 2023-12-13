@@ -1,6 +1,5 @@
 document.querySelector("#crud_form").addEventListener("submit", function (event) 
-{
-    event.preventDefault();
+{   event.preventDefault();
     submitForm();
 });
 
