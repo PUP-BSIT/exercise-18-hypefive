@@ -104,13 +104,21 @@
             id="full_name"
             name="full_name"
             required
-            pattern="[A-Za-z0-9 ]+"
-          />
+            pattern="[A-Za-z0-9 ]+"/>
           <div>
             <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments" rows="5" cols="50" required>
+            <textarea 
+             id="comments" 
+             name="comments" 
+             rows="5" 
+             cols="50" 
+             required>
             </textarea>
-            <button type="submit" id="submit">Comment</button>
+            <button 
+             type="submit" 
+             id="submit">
+             Comment
+            </button>
           </div>
         </form>
         <div>
@@ -119,7 +127,10 @@
             <option value="newest">Newest First</option>
             <option value="oldest">Oldest First</option>
           </select>
-          <button id="sort_button">Sort out</button>
+          <button 
+           id="sort_button">
+           Sort out
+          </button>
         </div>
         <h5>Comment List</h5>
         <ul id="comment_list"></ul>
